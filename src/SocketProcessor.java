@@ -5,7 +5,6 @@ public class SocketProcessor implements Runnable{
     private Socket socket;
     private InputStream inputStream;
     private OutputStream outputStream;
-    private int counter;
 
     public SocketProcessor(Socket socket) throws Throwable {
         this.socket = socket;
